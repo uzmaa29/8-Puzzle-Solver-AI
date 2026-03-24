@@ -43,6 +43,13 @@ This project uses the **A\* search algorithm**, an informed search technique tha
 - A* Search Algorithm
 
 ---
+## Interface:
+
+| Before | After |
+|--------|-------|
+| ![Before](before.png) | ![After](after.png) |
+
+---
 
 ## Learning Outcome
 
