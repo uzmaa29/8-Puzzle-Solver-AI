@@ -1,61 +1,26 @@
-# 8-Puzzle Solver using A* Algorithm
+# 8-Puzzle Solver using A* Algorithm (AI Mini Project)
 
-An Artificial Intelligence project that solves the classic **8-Puzzle problem** using the **A* (A-Star) search algorithm** with the **Manhattan Distance heuristic**.  
-The application includes an interactive **GUI built with Python Tkinter**, allowing users to shuffle the puzzle, solve it automatically, and track the number of moves.
+##  Why A* Algorithm?
+The A* algorithm is used because it is an **informed search algorithm** that guarantees the shortest path while being more efficient than uninformed methods like BFS or DFS.
 
----
+It combines:
+- Actual cost from start (g(n))
+- Estimated cost to goal (h(n))
 
-## Project Overview
+This makes it faster and optimal for solving problems like the 8-puzzle.
 
-The 8-Puzzle is a sliding puzzle consisting of a **3×3 grid** with numbered tiles from **1 to 8** and one empty space.  
-The objective is to arrange the tiles in the correct order by sliding them into the empty space.
+## Algorithm Efficiency
 
-This project uses the **A\* search algorithm**, an informed search technique that efficiently finds the optimal solution.
+- Uses heuristic-based search (Manhattan Distance)
+- Reduces unnecessary state exploration
+- Finds optimal solution path
+- Faster than brute-force approaches
 
----
-
-## Features
-
-- Interactive **Graphical User Interface**
-- **Shuffle** the puzzle randomly
-- **Solve automatically using A\*** algorithm
-- **Reset puzzle**
-- **Move counter**
-- Visual step-by-step solution
-
----
-
-## AI Concepts Used
-
-- State Space Representation
-- Heuristic Search
-- A* (A-Star) Algorithm
-- Manhattan Distance Heuristic
-- Path Reconstruction
-
----
-
-## Technologies Used
-
-- Python
-- Tkinter (GUI)
-- Priority Queue
-- A* Search Algorithm
-
----
-## Interface:
+## UI Enhancement (Before vs After)
 
 | Before | After |
 |--------|-------|
 | ![Before](before.png) | ![After](after.png) |
-
----
-
-## Learning Outcome
-
-This project demonstrates how Artificial Intelligence search algorithms can be used to solve real-world problems efficiently by combining heuristics and state-space exploration.
-
----
 
 ## How to Run the Project
 
@@ -63,6 +28,5 @@ This project demonstrates how Artificial Intelligence search algorithms can be u
 2. Open the project folder
 3. Run the Python file
 
-
-```bash
-python modern_8_puzzle.py
+## Tags
+Artificial Intelligence, A* Algorithm, Heuristic Search, 8 Puzzle, Python, Tkinter, State Space Search
